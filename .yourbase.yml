@@ -1,7 +1,7 @@
 dependencies:
   build:
     - dart:2.3.2
-    - flutter:1.7.4
+    - flutter:1.5.4-hotfix.2
 
 build_targets:
   - name: default
