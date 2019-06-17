@@ -1,0 +1,17 @@
+dependencies:
+  build:
+    - dart:2.3.2
+    - flutter:1.7.4
+
+build_targets:
+  - name: default
+    tags:
+      channel: experimental
+    commands:
+      - flutter doctor
+      - sh ./ci-script.sh
+      
+ci:
+  builds:
+    - name: app
+      build_target: default
